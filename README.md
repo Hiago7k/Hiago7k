@@ -1,6 +1,7 @@
-## 👨‍💻 Hiago Mendes
+## Welcome!
 
-![Hiago Mendes Banner](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Software%20Developer&textBg=false&section=header&reversal=true&fontColor=00000&fontSize=40&desc=Hiago%20Mendes)
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,100:302b63&height=200&section=header&text=Hiago%20Mendes&fontColor=ffffff&fontSize=40&animation=twinkling)
+
 
 <div>
  <p>Me chamo Hiago Mendes, tenho 20 anos sou apaixonado por tecnologia, desde os meus 8 anos de idade onde tive meu primeiro contato. Atualmente sou estudante de ADS, com foco em desenvolvimento de softwares, minhas principais
