@@ -3,6 +3,8 @@
 ![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,100:302b63&height=200&section=header&text=Hiago%20Mendes&fontColor=ffffff&fontSize=40&animation=twinkling)
 
 
+---
+
 <div>
  <p>Me chamo Hiago Mendes, tenho 20 anos sou apaixonado por tecnologia, desde os meus 8 anos de idade onde tive meu primeiro contato. Atualmente sou estudante de ADS, com foco em desenvolvimento de softwares, minhas principais
    atualmente, estou buscando conhecimento em .NET C#.
@@ -48,3 +50,7 @@
   <a href="https://www.instagram.com/hiagoskz/?next=%2F" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/hiago-mendes-045319292/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 </div>
+
+
+---
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,100:302b63&height=120&section=footer)
