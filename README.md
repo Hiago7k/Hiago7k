@@ -1,11 +1,15 @@
 ## 👨‍💻 Hiago Mendes
 
+![Hiago Mendes Banner](https://capsule-render.vercel.app/api?type=blur&height=301&color=gradient&text=Software%20Developer&textBg=false&section=header&reversal=false&fontColor=00000&fontSize=40&desc=Hiago%20Mendes)
+
 <div>
  <p>Me chamo Hiago Mendes, tenho 20 anos sou apaixonado por tecnologia, desde os meus 8 anos de idade onde tive meu primeiro contato. Atualmente sou estudante de ADS, com foco em desenvolvimento de softwares, minhas principais
    atualmente, estou buscando conhecimento em .NET C#.
   
  </p>
 </div>
+
+---
 
 <h2>Software Developer</h2>
 
@@ -17,6 +21,8 @@
 </div>
 
 <h2>🚀 Linguagens e Tecnologias</h2>
+
+---
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
