@@ -15,11 +15,11 @@ Minhas principais stacks no momento são <b>.NET e C#</b>, mas estudo outras tec
 
 ---
 
+
 ## 📌 Software Developer
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Hiago7k/Hiago7k/main/github-metrics.svg" alt="GitHub Metrics" />
-</p>
+![GitHub Metrics](https://raw.githubusercontent.com/Hiago7k/Hiago7k/main/github-metrics.svg)
+
 ---
 
 ## 🚀 Linguagens e Tecnologias
