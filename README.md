@@ -15,15 +15,13 @@ Minhas principais stacks no momento são <b>.NET e C#</b>, mas estudo outras tec
 
 ---
 
+
 ## 📌 Software Developer
 
-<div align="center">
-  <img height="170em"
-       src="https://github-readme-stats.vercel.app/api?username=Hiago7k&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+<p align="center">
+  ![Stats](https://www.statsforgit.com/api?username=Hiago7k&theme=dark)
+</p>
 
-  <img height="170em"
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hiago7k&layout=compact&langs_count=6&theme=tokyonight"/>
-</div>
 
 ---
 
