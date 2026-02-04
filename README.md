@@ -18,10 +18,11 @@ Minhas principais stacks no momento são <b>.NET e C#</b>, mas estudo outras tec
 
 ## 📌 Software Developer
 
-<p align="center">
-  ![Stats](https://www.statsforgit.com/api?username=Hiago7k&theme=dark)
-</p>
+## 📌 Software Developer
 
+<p align="center">
+  https://raw.githubusercontent.com/Hiago7k/Hiago7k/main/github-metrics.svg
+</p>
 
 ---
 
