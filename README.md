@@ -18,8 +18,7 @@ Minhas principais stacks no momento são <b>.NET e C#</b>, mas estudo outras tec
 
 ## 📌 Software Developer
 
-![GitHub Metrics](https://raw.githubusercontent.com/Hiago7k/Hiago7k/main/github-metrics.svg)
-
+![Karanalpe Status](https://github-readme-stats.vercel.app/api?username=karanalpe&show_icons=true)
 ---
 
 ## 🚀 Linguagens e Tecnologias
