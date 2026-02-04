@@ -1,51 +1,88 @@
-## Welcome!
-
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,100:302b63&height=200&section=header&text=Hiago%20Mendes&fontColor=ffffff&fontSize=40&animation=twinkling)
-
----
-
-<div>
- <p>Me chamo Hiago Mendes, tenho 20 anos e sou apaixonado por tecnologia desde os meus 8 anos de idade. Atualmente sou estudante de ADS com foco em desenvolvimento de softwares.  
- Minhas principais stacks no momento são **.NET e C#**, mas também estudo outras tecnologias para me tornar um desenvolvedor completo.
- </p>
-</div>
-
----
-
-<h2>📌 Software Developer</h2>
-
-<div align="center">
-  <a href="https://github.com/Hiago7k">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Hiago7k&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hiago7k&layout=compact&langs_count=6&theme=tokyonight"/>
-  </a>
-</div> 
-
----
-
-<h2>🚀 Linguagens e Tecnologias</h2>
-
-<div style="display: inline_block"><br>
-  <img align="center" alt="Js" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="HTML" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Ts" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
-  <img align="center" alt="React" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="NodeJS" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
-  <img align="center" alt="Express" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"> <!-- link alternativo que funciona melhor -->
-  <img align="center" alt="Csharp" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-  <img align="center" alt="DotNet" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg">
-</div>
-
----
-
-### Pra conteúdo sobre programação, me segue nas redes abaixo 👇
-
-<div>
-  <a href="https://www.instagram.com/hiagoskz/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/hiago-mendes-045319292/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-</div>
-
----
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,100:302b63&height=120&section=footer)
+select distinct (substr(lpad(rrbc.cnpj, 14, 0), 1, 8)) as RAIZ_CNPJ,
+               rrb.apelido,
+               (select count(1)
+                  from cpd.rbx_empresa re
+                 where re.apelido = rrb.apelido
+                   and re.situacao_cadastral = 'ATIVA'
+                 group by re.apelido) as QTD_CNPJs,
+               tfdc.lista_projetos,
+               rrb.dat_fim,
+               decode(rrb.log_sped_fiscal, 0, 'NÃO', 1, 'SIM') AS SPED_LIBERADO,
+               (select count(1)
+                  from extrator.bx_monitor_cad bmc
+                 inner join extrator.bx_monitor_cad_cnpj bmcc
+                    on bmcc.num_seq = bmc.num_seq
+                 where bmc.funcao = 'BAIXA_ESCRITURACAO_SPED'
+                   and bmc.tipo_recorrencia  'U'
+                   and bmc.habilitado = 'S'
+                   and substr(bmcc.cnpj, 1, 8) =
+                       substr(lpad(rrbc.cnpj, 14, 0), 1, 8)
+                   and bmcc.habilitado = 'S') AS QTD_TAREFAS,
+               (select listagg(bmc.des_tarefa, ', ')
+                  from extrator.bx_monitor_cad bmc
+                 inner join extrator.bx_monitor_cad_cnpj bmcc
+                    on bmcc.num_seq = bmc.num_seq
+                 where bmc.funcao = 'BAIXA_ESCRITURACAO_SPED'
+                   and bmc.tipo_recorrencia  'U'
+                   and bmc.habilitado = 'S'
+                   and substr(bmcc.cnpj, 1, 8) =
+                       substr(lpad(rrbc.cnpj, 14, 0), 1, 8)
+                   and bmcc.habilitado = 'S') AS TAREFAS,
+               (select max(bmc.dat_proxima_execucao)
+                  from extrator.bx_monitor_cad bmc
+                 inner join extrator.bx_monitor_cad_cnpj bmcc
+                    on bmcc.num_seq = bmc.num_seq
+                 where bmc.funcao = 'BAIXA_ESCRITURACAO_SPED'
+                   and bmc.tipo_recorrencia  'U'
+                   and bmc.habilitado = 'S'
+                   and substr(bmcc.cnpj, 1, 8) =
+                       substr(lpad(rrbc.cnpj, 14, 0), 1, 8)
+                   and bmcc.habilitado = 'S') AS PROX_EXECUCAO,
+              decode(rrb.Log_Efd_Contribuicoes, 0, 'NÃO', 1, 'SIM') AS EFD_LIBERADO,
+               (select COUNT(1)
+                  from extrator.bx_monitor_cad bmc
+                 inner join extrator.bx_monitor_cad_cnpj bmcc
+                    on bmcc.num_seq = bmc.num_seq
+                 where bmc.funcao = 'BAIXA_ESCRITURACAO_EFD'
+                   and bmc.tipo_recorrencia  'U'
+                   and bmc.habilitado = 'S'
+                   and substr(bmcc.cnpj, 1, 8) =
+                       substr(lpad(rrbc.cnpj, 14, 0), 1, 8)
+                   and bmcc.habilitado = 'S') AS QTD_TAREFAS,
+               (select listagg(bmc.des_tarefa, ', ')
+                  from extrator.bx_monitor_cad bmc
+                 inner join extrator.bx_monitor_cad_cnpj bmcc
+                    on bmcc.num_seq = bmc.num_seq
+                 where bmc.funcao = 'BAIXA_ESCRITURACAO_EFD'
+                   and bmc.tipo_recorrencia  'U'
+                   and bmc.habilitado = 'S'
+                   and substr(bmcc.cnpj, 1, 8) =
+                       substr(lpad(rrbc.cnpj, 14, 0), 1, 8)
+                   and bmcc.habilitado = 'S') AS TAREFAS,
+               (select max(bmc.dat_proxima_execucao)
+                  from extrator.bx_monitor_cad bmc
+                 inner join extrator.bx_monitor_cad_cnpj bmcc
+                    on bmcc.num_seq = bmc.num_seq
+                 where bmc.funcao = 'BAIXA_ESCRITURACAO_EFD'
+                   and bmc.tipo_recorrencia  'U'
+                   and bmc.habilitado = 'S'
+                   and substr(bmcc.cnpj, 1, 8) =
+                       substr(lpad(rrbc.cnpj, 14, 0), 1, 8)
+                   and bmcc.habilitado = 'S') AS PROX_EXECUCAO ,
+               decode(rrb.log_ecf, 0, 'NÃO', 1, 'SIM') AS ECF_LIBERADO,
+               (select listagg(bmc.des_tarefa, ',')
+                  from extrator.bx_monitor_cad bmc
+                 inner join extrator.bx_monitor_cad_cnpj bmcc
+                    on bmcc.num_seq = bmc.num_seq
+                 where bmc.funcao = 'BAIXA_ESCRITURACAO_ECF'
+                   and bmc.tipo_recorrencia  'U'
+                   and bmc.habilitado = 'S'
+                   and substr(bmcc.cnpj, 1, 8) =
+                       substr(lpad(rrbc.cnpj, 14, 0), 1, 8)
+                   and bmcc.habilitado = 'S') AS TAREFAS
+from cpd.rbx_receita_bx rrb
+inner join cpd.rbx_receita_bx_cnpj rrbc
+   on rrbc.id_receita_bx = rrb.id
+left join cpd.tb_flow_dw_cliente tfdc
+   on tfdc.raiz_cnpj = substr(lpad(rrbc.cnpj, 14, 0), 1, 8)
+where rrb.dat_fim = sysdate;
