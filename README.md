@@ -17,7 +17,8 @@ Minhas principais stacks no momento são <b>.NET e C#</b>, mas estudo outras tec
 
 
 ## 📌 Acesse meu Portfolio
-<a href"https://portfolio-new-nu-coral.vercel.app/" target="_blank">  </a>
+ <a href="https://portfolio-new-nu-coral.vercel.app/" target="_blank">
+  </a>
 
 ---
 
