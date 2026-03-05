@@ -65,4 +65,6 @@ Portfolio
 ---
 ![Profile views](https://komarev.com/ghpvc/?username=Hiago7k&color=blueviolet)
 
+![Snake animation](https://github.com/Hiago7k/Hiago7k/blob/output/github-contribution-grid-snake.svg)
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,100:302b63&height=120&section=footer"/>
