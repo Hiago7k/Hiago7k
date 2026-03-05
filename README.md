@@ -51,4 +51,10 @@ Minhas principais stacks no momento são <b>.NET e C#</b>, mas estudo outras tec
 
 ---
 
+![stats](https://github-readme-stats-sigma-five.vercel.app/api?username=Hiago7k&show_icons=true)
+
+![langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Hiago7k&layout=compact)
+
+![streak](https://streak-stats.demolab.com?user=SEU_USERNAME)
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,100:302b63&height=120&section=footer"/>
