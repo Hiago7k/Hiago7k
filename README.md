@@ -1,39 +1,38 @@
-## Welcome!
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,100:302b63&height=200&section=header&text=Hiago%20Mendes&fontColor=ffffff&fontSize=40&animation=twinkling"/>
-
----
+<img src=".//banner_header.jpg"/>
 
 ## 👨‍💻 Sobre mim
 
-Me chamo **Hiago Mendes**, tenho **20 anos** e sou apaixonado por tecnologia desde os **8 anos de idade**.
+Me chamo **Hiago Mendes**, tenho **21 anos** e sou apaixonado por tecnologia desde os **8 anos de idade**.
 
-Atualmente sou estudante de **Análise e Desenvolvimento de Sistemas**, com foco em **desenvolvimento de software**.
+Atualmente sou Desenvolvedor de Software java Na Foursys
 
-Minhas principais stacks atualmente são **.NET e C#**, com foco em desenvolvimento **Back-End**.
-Também estudo outras tecnologias para ampliar minhas habilidades e construir aplicações completas.
+Minhas principais stacks Java SpringBoot C# .NET SQL Server Angular
 
 ---
 
-## 📌 Confira meu Portfólio
-
+## 🌑 Confira meu Portfólio
 <a href="https://portfolio-new-nu-coral.vercel.app/" target="_blank">
 Portfolio
 </a>
 
----
 
-## 🚀 Linguagens e Tecnologias
+## ☯︎ Linguagens e Tecnologias
 
 <div style="display: inline_block"><br>
-  <img align="center" alt="JavaScript" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="HTML" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="TypeScript" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
-  <img align="center" alt="React" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="NodeJS" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
-  <img align="center" alt="CSharp" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-  <img align="center" alt="DotNet" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg">
+  
+  <img align="center" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-plain.svg" />
+  <img align="center" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" />
+  <img align="center" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
+  <img align="center" height="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dbeaver/dbeaver-original.svg" />
+  <img align="center" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" />
+  <img align="center" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+  <img align="center" height="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+  <img align="center" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg" />
+  <img align="center" height="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
+  <img align="center" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" />
+  <img align="center" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />
+  <img align="center" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
+  <img align="center" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
 </div>
 
 ---
@@ -51,20 +50,13 @@ Portfolio
 
 ---
 
-## 📊 Estatísticas do GitHub
-
-<p>
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Hiago7k&show_icons=true&theme=radical"/>
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Hiago7k&layout=compact&theme=radical"/>
-</p>
-
 <p>
   <img height="180em" src="https://streak-stats.demolab.com?user=Hiago7k&theme=radical"/>
 </p>
 
 ---
-![Profile views](https://komarev.com/ghpvc/?username=Hiago7k&color=blueviolet)
 
 ![snake](https://raw.githubusercontent.com/Hiago7k/Hiago7k/output/github-contribution-grid-snake.svg)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,100:302b63&height=120&section=footer"/>
+<img src=".//banner_footer.jpg"/>
+
