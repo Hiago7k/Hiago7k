@@ -38,7 +38,6 @@ Portfolio
 ---
 
 ## 🌐 Redes sociais
-
 <div>
   <a href="https://www.instagram.com/hiagoskz/" target="_blank">
     <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white">
@@ -51,12 +50,10 @@ Portfolio
 ---
 
 <p>
-  <img height="180em" src="https://streak-stats.demolab.com?user=Hiago7k&theme=radical"/>
-</p>
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=hiago7k&theme=onedark-duo" alt="GitHub Streak" /></a>
 
 ---
 
-![snake](https://raw.githubusercontent.com/Hiago7k/Hiago7k/output/github-contribution-grid-snake.svg)
 
 <img src=".//banner_footer.jpg"/>
 
