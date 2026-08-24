@@ -49,9 +49,17 @@ Portfolio
 
 ---
 
-<p>
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=hiago7k&theme=onedark-duo" alt="GitHub Streak" /></a>
+<div align="center">
 
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=hiago7k&theme=radical" alt="GitHub Streak" />
+
+
+  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=hiago7k&theme=radical&show_icons=true&include_all_commits=true"/>
+
+  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=hiago7k&theme=radical&layout=compact&include_all_commits=true"/>
+
+
+</div>
 ---
 
 
