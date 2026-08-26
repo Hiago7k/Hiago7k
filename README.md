@@ -60,7 +60,6 @@ Portfolio
 
 
 </div>
----
 
 
 <img src=".//banner_footer.jpg"/>
