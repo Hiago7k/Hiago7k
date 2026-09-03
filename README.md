@@ -58,7 +58,7 @@ Portfolio
 
 <img
   height="180em"
-  src="https://github-stats-extended.vercel.app/api/top-langs/?username=hiago7k&theme=radical&layout=compact"
+  src="https://github-stats-extended.vercel.app/api/top-langs/?username=hiago7k&theme=radical&layout=compact&langs_count=20"
 />
 
 </div>
