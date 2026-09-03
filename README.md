@@ -56,8 +56,10 @@ Portfolio
 
   <img height="180em" src="https://github-stats-extended.vercel.app/api?username=hiago7k&theme=radical&show_icons=true&include_all_commits=true"/>
 
-  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=hiago7k&theme=radical&layout=compact&include_all_commits=true"/>
-
+<img
+  height="180em"
+  src="https://github-stats-extended.vercel.app/api/top-langs/?username=hiago7k&theme=radical&layout=compact"
+/>
 
 </div>
 
