@@ -1,4 +1,4 @@
-<img src=".//bannerw.png"/>
+<img src=".//new.png"/>
 
 ## 👨‍💻 Sobre mim
 
