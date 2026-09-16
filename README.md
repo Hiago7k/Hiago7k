@@ -64,5 +64,5 @@ Portfolio
 </div>
 
 
-<img src=".//banner_footer.jpg"/>
+<img src=".//banner_top.png"/>
 
