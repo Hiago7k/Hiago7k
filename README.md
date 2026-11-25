@@ -56,11 +56,10 @@ Portfolio
 
   <img height="180em" src="https://github-stats-extended.vercel.app/api?username=hiago7k&theme=radical&show_icons=true&include_all_commits=true"/>
 
-<img
-  height="180em"
-  src="https://github-stats-extended.vercel.app/api/top-langs/?username=hiago7k&theme=radical&layout=compact&langs_count=20"
-/>
 
+  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=hiago7k&theme=radical&layout=compact&langs_count=20&size_weight=0.5&count_weight=0.5&utm_source=chatgpt.com"/>
+
+  
 </div>
 
 
